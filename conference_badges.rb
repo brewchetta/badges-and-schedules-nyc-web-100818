@@ -11,4 +11,4 @@ def batch_badge_creator(people)
   badges
 end
 
-def assign_rooms(items)
+def assign_rooms(people)
