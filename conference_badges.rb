@@ -22,14 +22,8 @@ def assign_rooms(people)
 end
 
 def printer(names)
-  if names.class == String
-    puts batch_badge_creator(names)
-    puts assign_rooms(names)
-  end
-  if names.class == Array
-    names.each do |name|
-      puts batch_badge_creator(name)
-      puts assign_rooms(name)
-    end
+  names.each do |name|
+    puts batch_badge_creator(name)
+    puts assign_rooms(name)
   end
 end
