@@ -21,4 +21,5 @@ def assign_rooms(people)
   assignments
 end
 
-def printer
+def printer(array)
+  badg
