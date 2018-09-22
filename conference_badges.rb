@@ -12,3 +12,7 @@ def batch_badge_creator(people)
 end
 
 def assign_rooms(people)
+  people.each do |x|
+    
+  end
+end
