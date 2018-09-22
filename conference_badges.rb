@@ -22,4 +22,7 @@ def assign_rooms(people)
 end
 
 def printer(array)
-  badg
+  array.each do |name|
+    
+  end 
+end 
