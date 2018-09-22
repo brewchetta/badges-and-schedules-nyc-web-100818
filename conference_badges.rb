@@ -22,8 +22,8 @@ def assign_rooms(people)
 end
 
 def printer(names)
-  if names.class == string
-  if names.type == array
+  if names.class == String
+  if names.type == Array
     names.each do |name|
       puts batch_badge_creator(name)
       puts assign_rooms(name)
