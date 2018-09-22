@@ -3,10 +3,10 @@ def badge_maker(name)
   "Hello, my name is #{name}."
 end
 
-def batch_badge_creator(array)
+def batch_badge_creator(list)
   Array.new = badges
-  array.each |x| do
-    strings.push(badge_maker(x))
+  list.each |x| do
+    badges.push(badge_maker(x))
   end
   badges
 end
