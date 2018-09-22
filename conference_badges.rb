@@ -14,7 +14,7 @@ end
 def assign_rooms(people)
   assignments = []
   i = 1
-  people.each do |x,i|
+  people.each do |x|
     "Hello, #{x}! You'll be assigned to room #{i}!"
     i += 1
   end
