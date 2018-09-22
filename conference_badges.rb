@@ -3,10 +3,12 @@ def badge_maker(name)
   "Hello, my name is #{name}."
 end
 
-def batch_badge_creator(items)
+def batch_badge_creator(people)
   badges = []
-  items.each do |x|
+  people.each do |x|
     badges.push(badge_maker(x))
   end
   badges
 end
+
+def assign_rooms(items)
