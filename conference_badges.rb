@@ -6,6 +6,7 @@ end
 def batch_badge_creator(array)
   strings = []
   for i in array
-    string.push(badge_maker(array[i]))
+    strings.push(badge_maker(array[i]))
   end
+  strings
 end
