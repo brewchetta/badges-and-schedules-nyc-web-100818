@@ -5,8 +5,8 @@ end
 
 def batch_badge_creator(array)
   strings = []
-  for i in (0..array.length)
-    strings.push(badge_maker(array[i]))
+  array.each |x| do
+    strings.push(badge_maker(x))
   end
   strings
 end
